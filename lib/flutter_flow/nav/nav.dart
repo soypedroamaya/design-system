@@ -42,19 +42,19 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               builder: (context, params) => PlantillaMobDktWebWidget(),
             ),
             FFRoute(
-              name: 'PagNav_1',
-              path: 'pagNav1',
-              builder: (context, params) => PagNav1Widget(),
+              name: 'PaginaNav_1',
+              path: 'paginaNav1',
+              builder: (context, params) => PaginaNav1Widget(),
             ),
             FFRoute(
-              name: 'PagNav_3',
-              path: 'pagNav3',
-              builder: (context, params) => PagNav3Widget(),
+              name: 'PaginaNav_3',
+              path: 'paginaNav3',
+              builder: (context, params) => PaginaNav3Widget(),
             ),
             FFRoute(
-              name: 'PagNav_2',
-              path: 'pagNav2',
-              builder: (context, params) => PagNav2Widget(),
+              name: 'PaginaNav_2',
+              path: 'paginaNav2',
+              builder: (context, params) => PaginaNav2Widget(),
             ),
             FFRoute(
               name: 'inputs',

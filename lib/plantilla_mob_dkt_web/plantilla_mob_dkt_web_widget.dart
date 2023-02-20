@@ -228,7 +228,7 @@ class _PlantillaMobDktWebWidgetState extends State<PlantillaMobDktWebWidget> {
                         padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 12),
                         child: InkWell(
                           onTap: () async {
-                            context.pushNamed('PagNav_1');
+                            context.pushNamed('PaginaNav_1');
                           },
                           child: Container(
                             width: double.infinity,
@@ -290,7 +290,7 @@ class _PlantillaMobDktWebWidgetState extends State<PlantillaMobDktWebWidget> {
                         padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 12),
                         child: InkWell(
                           onTap: () async {
-                            context.pushNamed('PagNav_2');
+                            context.pushNamed('PaginaNav_2');
                           },
                           child: Container(
                             width: double.infinity,
@@ -352,7 +352,7 @@ class _PlantillaMobDktWebWidgetState extends State<PlantillaMobDktWebWidget> {
                         padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 12),
                         child: InkWell(
                           onTap: () async {
-                            context.pushNamed('PagNav_3');
+                            context.pushNamed('PaginaNav_3');
                           },
                           child: Container(
                             width: double.infinity,

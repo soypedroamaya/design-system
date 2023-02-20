@@ -1,6 +1,6 @@
 {
-    "name": "Design-System",
-    "short_name": "Design-System",
+    "name": "fend-dsystem-flutterflow",
+    "short_name": "fend-dsystem-flutterflow",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

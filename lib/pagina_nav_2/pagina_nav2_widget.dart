@@ -3,18 +3,18 @@ import '../flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'pag_nav1_model.dart';
-export 'pag_nav1_model.dart';
+import 'pagina_nav2_model.dart';
+export 'pagina_nav2_model.dart';
 
-class PagNav1Widget extends StatefulWidget {
-  const PagNav1Widget({Key? key}) : super(key: key);
+class PaginaNav2Widget extends StatefulWidget {
+  const PaginaNav2Widget({Key? key}) : super(key: key);
 
   @override
-  _PagNav1WidgetState createState() => _PagNav1WidgetState();
+  _PaginaNav2WidgetState createState() => _PaginaNav2WidgetState();
 }
 
-class _PagNav1WidgetState extends State<PagNav1Widget> {
-  late PagNav1Model _model;
+class _PaginaNav2WidgetState extends State<PaginaNav2Widget> {
+  late PaginaNav2Model _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
   final _unfocusNode = FocusNode();
@@ -22,7 +22,7 @@ class _PagNav1WidgetState extends State<PagNav1Widget> {
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => PagNav1Model());
+    _model = createModel(context, () => PaginaNav2Model());
   }
 
   @override
@@ -42,7 +42,7 @@ class _PagNav1WidgetState extends State<PagNav1Widget> {
         backgroundColor: FlutterFlowTheme.of(context).primaryColor,
         automaticallyImplyLeading: false,
         title: Text(
-          'PagNav_1',
+          'PaginaNav_2',
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: FlutterFlowTheme.of(context).title2Family,
                 color: Colors.white,
